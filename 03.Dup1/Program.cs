@@ -5,6 +5,7 @@ namespace Dup1
 {
     public class Program
     {
+        // to run from Powershell: `cat input.txt | dotnet run`
         public static void Main(string[] args)
         {
             var counts = new Dictionary<string, int>();
