@@ -1,20 +1,20 @@
 ﻿using System;
 
-namespace ConsoleApplication
+namespace Echo2
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-            var s = string.Empty;
+            var output = string.Empty;
             var separator = string.Empty;
             foreach (var arg in args)
             {
-                s += separator + arg;
+                output += separator + arg;
                 separator = " ";
             }
 
-            Console.WriteLine(s);
+            Console.WriteLine(output);
         }
     }
 }

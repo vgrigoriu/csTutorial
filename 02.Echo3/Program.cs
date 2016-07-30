@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApplication
+namespace Echo3
 {
     public class Program
     {

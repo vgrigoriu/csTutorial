@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApplication
+namespace HelloWorld
 {
     public class Program
     {
