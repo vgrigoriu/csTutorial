@@ -6,6 +6,10 @@ namespace Dup2
 {
     public class Program
     {
+        // usage:
+        //     cat input1.txt | dotnet run
+        // or:
+        //     dotnet run input1.txt input2.txt
         public static void Main(string[] args)
         {
             var counts = new Dictionary<string, int>();
