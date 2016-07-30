@@ -8,9 +8,9 @@ namespace ConsoleApplication
         {
             var s = string.Empty;
             var separator = string.Empty;
-            foreach (var arg in args)
+            for (var i = 0; i < args.Length; i++)
             {
-                s += separator + arg;
+                s += separator + args[i];
                 separator = " ";
             }
 
